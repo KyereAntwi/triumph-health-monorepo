@@ -30,10 +30,10 @@ jobs:
         run: pnpm install
 
       - name: Lint
-        run: pnpm lint
+        run: pnpm turbo run lint --continue
 
       - name: Typecheck
-        run: pnpm typecheck
+        run: pnpm turbo run typecheck --continue
 
       - name: Build
         run: pnpm build
