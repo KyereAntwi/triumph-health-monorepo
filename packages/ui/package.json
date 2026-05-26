@@ -1,5 +1,26 @@
 {
   "name": "@triumph/ui",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./components/*": "./src/components/*",
+    "./lib/*": "./src/lib/*",
+    "./hooks/*": "./src/hooks/*",
+    "./globals.css": "./src/styles/globals.css"
+  },
+  "imports": {
+    "#components/*": "./src/components/*.tsx",
+    "#lib/*": "./src/lib/*.ts",
+    "#hooks/*": "./src/hooks/*.ts"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.6.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
 }

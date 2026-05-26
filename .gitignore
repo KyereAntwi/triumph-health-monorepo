@@ -1,3 +1,25 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# turbo / next.js build output
+.turbo/
+.next/
+out/
+dist/
+
+# env (root pattern kept for compatibility)
 *env
-/node_modules
+.env*
+!.env.example
+
+# IDE / OS
 /.vs
+.DS_Store
+
+# debug
+*.log
+.pnpm-debug.log*
+
+# typescript
+*.tsbuildinfo
