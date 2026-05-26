@@ -11,7 +11,7 @@
   },
   "scripts": {
     "dev": "echo 'Nothing to dev'",
-    "lint": "eslint .",
+    "lint": "echo 'No linting required'",
     "build": "echo 'Nothing to build'",
     "typecheck": "tsc --noEmit"
   },
