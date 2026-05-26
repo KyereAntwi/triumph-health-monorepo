@@ -9,6 +9,12 @@
     "./hooks/*": "./src/hooks/*",
     "./globals.css": "./src/styles/globals.css"
   },
+  "scripts": {
+    "dev": "echo 'Nothing to dev'",
+    "lint": "eslint .",
+    "build": "echo 'Nothing to build'",
+    "typecheck": "tsc --noEmit"
+  },
   "imports": {
     "#components/*": "./src/components/*.tsx",
     "#lib/*": "./src/lib/*.ts",

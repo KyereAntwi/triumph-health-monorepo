@@ -1,0 +1,9 @@
+{
+  "name": "@triumph/types",
+  "private": true,
+  "scripts": {
+    "lint": "echo 'No linting required'",
+    "build": "echo 'Nothing to build'",
+    "typecheck": "tsc --noEmit"
+  }
+}
