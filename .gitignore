@@ -7,11 +7,19 @@ node_modules/
 .next/
 out/
 dist/
+coverage/
 
 # env (root pattern kept for compatibility)
 *env
 .env*
 !.env.example
+.env.local
+
+# vercel
+.vercel
+
+# turbo
+.turbo/
 
 # IDE / OS
 /.vs
