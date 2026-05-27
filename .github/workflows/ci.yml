@@ -32,11 +32,11 @@ jobs:
       - name: Lint
         run: pnpm turbo run lint --continue
 
-      - name: Typecheck
-        run: pnpm turbo run typecheck --continue
-
       - name: Build
         run: pnpm build
+
+      - name: Typecheck
+        run: pnpm turbo run typecheck --continue
 
       - name: Turbo Cache
         uses: actions/cache@v4
