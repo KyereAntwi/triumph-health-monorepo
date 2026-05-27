@@ -19,5 +19,5 @@
     "strict": true,
     "target": "ESNext"
   },
-  "exclude": ["node_modules", "dist", ".turbo"]
+  "exclude": []
 }
