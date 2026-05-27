@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A monorepo for the Triumph Health platform",
   "main": "index.js",
+  "license": "ISC",
+  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "turbo run dev",
     "dev:web": "turbo run dev --filter=web",

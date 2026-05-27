@@ -26,6 +26,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@triumph/eslint-config": "workspace:*",
+    "@triumph/typescript-config": "workspace:*",
     "eslint": "^9.39.4",
     "eslint-config-next": "^15.2.0",
     "tailwindcss": "^4",

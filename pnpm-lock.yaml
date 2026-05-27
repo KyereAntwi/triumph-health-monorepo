@@ -76,6 +76,9 @@ importers:
       '@triumph/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
+      '@triumph/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@types/node':
         specifier: ^20
         version: 20.19.41
@@ -119,6 +122,9 @@ importers:
       '@triumph/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
+      '@triumph/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@types/node':
         specifier: ^20
         version: 20.19.41
@@ -162,6 +168,9 @@ importers:
       '@triumph/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
+      '@triumph/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@types/node':
         specifier: ^20
         version: 20.19.41
@@ -213,6 +222,8 @@ importers:
 
   packages/types: {}
 
+  packages/typescript-config: {}
+
   packages/ui:
     dependencies:
       class-variance-authority:
@@ -237,6 +248,9 @@ importers:
       '@triumph/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
+      '@triumph/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
       '@types/node':
         specifier: ^20
         version: 20.19.41
