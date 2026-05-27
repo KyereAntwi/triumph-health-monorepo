@@ -1,6 +1,6 @@
 {
   "extends": "@triumph/typescript-config/base.json",
-  "include": [".next/types/**/*.ts"],
+  "include": ["src", ".next/types/**/*.ts"],
   "compilerOptions": {
     "outDir": "dist",
     "lib": ["dom", "dom.iterable", "esnext"],
