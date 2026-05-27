@@ -1,0 +1,9 @@
+{
+  "name": "@triumph/config",
+  "private": true,
+  "scripts": {
+    "lint": "echo 'No linting required'",
+    "build": "echo 'Nothing to build'",
+    "typecheck": "echo 'No typechecking required'"
+  }
+}

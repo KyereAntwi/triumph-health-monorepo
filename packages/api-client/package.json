@@ -1,0 +1,9 @@
+{
+  "name": "@triumph/api-client",
+  "private": true,
+  "scripts": {
+    "lint": "echo 'No linting required'",
+    "build": "echo 'Nothing to build'",
+    "typecheck": "echo 'No typechecking required'"
+  }
+}
